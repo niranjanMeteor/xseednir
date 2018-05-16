@@ -35,9 +35,9 @@ The Repo has function exported to to read type strings and dynamically create mo
 
 # Clone project & install dependencies
 
-$ git clone git@github.com:niranjanMeteor/xseednir.git
-$ cd xseednir
-$ npm install
+* $ git clone git@github.com:niranjanMeteor/xseednir.git
+* $ cd xseednir
+* $ npm install
 
 
 # Start MongoDb proccess
@@ -47,18 +47,15 @@ sudo service mongod start
 
 # Output Library 
 
-xseednir/src/lib/model.js is the js file which exports the schema validator and generator functions
-
-xseednir/src/lib/modeldata.js is the js file which exports function to insert data in mongodb
+* xseednir/src/lib/model.js is the js file which exports the schema validator and generator functions
+* xseednir/src/lib/modeldata.js is the js file which exports function to insert data in mongodb
 
 
 #Testing
 
 * unit testing, with actually inserting data in mongodb and validating the model created
-
-npm run schematest   // test the validation of different schema types
-
-npm run datatest     // test the data insertion in the mongodb and validate the data 
+* npm run schematest   // test the validation of different schema types
+* npm run datatest     // test the data insertion in the mongodb and validate the data 
 
 
 #Eslint
