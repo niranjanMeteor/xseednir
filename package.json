@@ -1,0 +1,33 @@
+{
+  "name": "xseednir",
+  "version": "1.0.0",
+  "description": "Generate mongoose models from type strings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niranjanMeteor/xseednir"
+  },
+  "scripts": {
+    "schematest": "NODE_ENV=test mocha --compilers js:babel-register test/suits/schemavalidation.js",
+    "datatest": "NODE_ENV=test mocha --compilers js:babel-register test/suits/datainsertion.js"
+  },
+  "author": "Niranjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^5.1.1"
+  }
+}
