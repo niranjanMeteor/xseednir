@@ -51,19 +51,19 @@ sudo service mongod start
 * xseednir/src/lib/modeldata.js is the js file which exports function to insert data in mongodb
 
 
-#Testing
+# Testing
 
 * unit testing, with actually inserting data in mongodb and validating the model created
 * npm run schematest   // test the validation of different schema types
 * npm run datatest     // test the data insertion in the mongodb and validate the data 
 
 
-#Eslint
+# Eslint
 
 is pre-configured for this starter package. It uses the airbnb configuration package and a minimal set of own rules. Configuration is available in .eslintrc.js.
 
 
-#Unit-Tests
+# Unit-Tests
 
 A set of unit tests is available in test/suits folder. Mocha/Chai was used to create and run the unit tests.
 
